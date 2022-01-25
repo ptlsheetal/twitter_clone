@@ -7,8 +7,7 @@ So there are not user accounts and follow function. You can challenge after you 
 ```
 Check out [LIVE Twitter clone DEMO](https://twitterclone-sheetal.herokuapp.com/) here!!
 
-
-
+<img width="1431" alt="Screen Shot 2022-01-25 at 5 45 43 PM" src="https://user-images.githubusercontent.com/96556075/151073151-598c071b-68e1-458f-80c2-5b3b09a37f91.png">
 
 ## Tech used
 ```
