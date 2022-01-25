@@ -1,0 +1,285 @@
+/*
+Common
+***/
+* {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+}
+.content {
+  max-width: 600px;
+  /* height: 100%; */
+  margin: 0 auto;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  padding-left: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.header img {
+  height: 60px;
+}
+
+.header h1 {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.cubes {
+  height: 50px;
+  width: 50px;
+}
+/*
+Post
+****/
+/* .post_form {
+  display: flex;
+  padding: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border-bottom: 1px solid #ccc;
+} */
+.post_form {
+  display: flex;
+  padding: 20px 40px;
+  border-bottom: 1px solid #ccc;
+}
+
+.post_form input {
+  border: 0px;
+  width: 70%;
+  background-color: #e6fef7;
+  border-radius: 5px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.post_form textarea {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px;
+  margin-left: 30px;
+  width: 70%;
+  height: 100px;
+  padding-bottom: 20px;
+}
+
+.posts ul {
+  padding: 0;
+}
+
+.posts li {
+  position: relative;
+  display: flex;
+  padding: 17px;
+  border-bottom: 1px solid #ccc;
+  list-style: none;
+}
+
+.posts li .menu_icon {
+  width: 20px;
+  position: absolute;
+  right: 30px;
+}
+
+.posts li .menu {
+  display: none;
+  position: absolute;
+  right: 50px;
+  border: 1px solid #ccc;
+  background-color: white;
+  padding: 10px 15px;
+  font-size: 13px;
+  border-radius: 3px;
+  border-bottom: 1px solid #ccc;
+}
+
+.posts li .menu a {
+  text-decoration: none;
+}
+
+.posts li .logo {
+  flex-basis: 14%;
+}
+
+.posts li .logo img {
+  width: 60%;
+}
+
+.posts li .name_body {
+  flex-basis: 65%;
+}
+.name_body .datetime {
+  color: gray;
+}
+.name_body p {
+  padding-bottom: 20px;
+}
+.name {
+  font-weight: bold;
+}
+#uploadfile {
+  width: 40%;
+  padding-top: 20px;
+  border: hidden;
+  overflow: hidden;
+  background-color: white !important;
+}
+
+#btn {
+  width: 20%;
+  background-color: rgb(29, 161, 242);
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5%;
+  border: 1px solid transparent;
+  padding: 9px;
+  cursor: pointer;
+}
+.bottom-area {
+  display: inline;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  padding-top: 8px;
+}
+#cancel {
+  width: 20%;
+  background-color: rgb(145, 162, 173);
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5%;
+  border: 1px solid transparent;
+  padding: 9px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* .bottom-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 5px;
+} */
+
+/* input[type='file']{
+  width: 90%;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding:0;
+  margin: 30px;
+  border-radius: 2px;
+
+ 
+} */
+/* .btnn{
+  width: 80px;
+  height: 35px;
+  margin: 25px;
+  background-color: gray;
+  color: whitesmoke;
+  border: none;
+  border-radius: 5px;
+  font-size: 22px;
+ 
+  right: 15px;
+  position: relative;
+  text-align: center;
+  /* margin-top: 1px; */
+/* text-decoration: none
+}
+.btn{
+  width: 80px;
+  height: 35px;
+  margin: 25px;
+  background-color: deepskyblue;
+  color: whitesmoke;
+  border: none;
+  border-radius: 5px;
+  font-size: medium;
+  position: absolute;
+  right: 15px;
+}
+
+#btn{
+  width: 80px;
+  height: 35px;
+  margin: 25px;
+  background-color: deepskyblue;
+  color: whitesmoke;
+  border: none;
+  border-radius: 5px;
+  font-size: medium;
+  position: absolute;
+  right: 15px;
+} */
+@media screen and (max-width: 280px) {
+  .post_form {
+    padding: 0px;
+  }
+  form.forms {
+    width: 77%;
+  }
+
+  input#btn {
+    font: size 10px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .btn {
+    top: 42%;
+  }
+  .post_form input {
+    width: 90%;
+  }
+
+  .post_form textarea {
+    padding: 6px;
+    width: 90%;
+  }
+
+  .heart {
+    width: 25px;
+    position: relative;
+    bottom: -30px;
+    right: 124px;
+  }
+
+  .count {
+    width: 25px;
+    padding-top: 2px;
+    position: relative;
+    bottom: -39px;
+    right: 212px;
+  }
+  .bottom-area {
+    margin: 28%;
+  }
+  a#cancel {
+    font-size: 13px;
+    margin-left:-3%;
+  }
+
+  input#btn {
+    margin-left: 1%;
+    font-size: 11px;
+    padding:10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .posts li .name_body .name {
+    font-size: 20px;
+  }
+}
